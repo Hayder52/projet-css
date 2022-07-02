@@ -1,0 +1,57 @@
+
+/* les selecteurs  class, id , nom du balise*/
+/* nom du balise utiliser pour tous les paragraphes */
+/* pour ajouter il faur mettre un classe pour une autre paragraphe */
+/* background color (types des couleurs css rgb(0 0 0 /50%) ,Exadecimale = #ffffff , )
++ image background-image = url"" , background-repet= repete , no-repete , repete-x , 
+repete-y, background-attachment=scroll , fixed , ou , background-position = left top,
+ left centre , 20px 30px , %  % , ou background-size = auto , cover , contain , px px , %  %*/
+ /* padding = px  (T R B L )*/
+ /* margin = px */
+ /* Border = border-width = px (T R B L ), border-color = red ajout des 3 couleurs ,
+  border-style = solide, border w , s , c*/
+  /* outline :  comme border  */
+  /* display : bloc prend tout le widh si n'es pas de widh && add inlign breack && respect paadding margin
+  widh , height
+  inline replace div par span : ne respect pas widht et heigth & respect padding et margin 
+  left et rigth n'ajoute pas inligne breack
+  display=inline-block: respect tous   */
+  /*  visibilité : je pren deux div pusi css background-colr , margin , display=none puis ajout
+  deux class 1er class class en ajout display-none , on peut remlace display par vidibilite
+  =visible , hidden */
+  /*  Groupe selector : 4 div avec 4 class pour minimizer le code css */
+  /* Nesting 7aja fi west 7aja div>p>h1 auter p en dehor de div style div p {} */
+  /* dimonsion width & heigth 3 div lorem css ajout display= inligne-block apres test ajout 
+  min-widh , max-widht aussi heigth  */
+  /* font-family , font-size */
+  /* mouse cursor : cursor=pointer */
+  /* text color & shadow */
+  /* opacity */
+/* hover */
+/* box shadow  */
+/* border raduice */
+.one , .three, .two{
+    background-color: #4f9611;
+    margin: 10px;
+    min-width: 200px;
+    max-height: 150px;
+    border-radius: 10px;
+    
+}
+
+.three{
+   
+    font-size: 20px;
+
+
+}
+
+.one p{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+}
